@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="POLO360 — timeless, crafted apparel. Discover premium polos, knitwear and everyday essentials designed to last." />
+  <title>POLO360 — Timeless Apparel, Crafted to Last</title>
+
+  <link rel="shortcut icon"
+    href="https://cdn-icons-png.flaticon.com/128/2331/2331966.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- ===== HEADER / NAV ===== -->
+  <header id="home">
+    <nav class="nav" id="nav">
+      <div class="container nav-inner">
+        <a href="#home" id="logo" aria-label="POLO360 — home">
+          <span class="logo-mark"><i class="fa-solid fa-shirt"></i></span>
+          <span class="logo-text">POLO<b>360</b></span>
+        </a>
+
+        <button id="menuToggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="menu" id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#journal">Journal</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ===== HERO SLIDER ===== -->
+    <div class="hero">
+      <div class="slides" id="slides">
+        <div class="slide is-active"
+          style="background-image:url('https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=1920&auto=format&fit=crop')">
+        </div>
+        <div class="slide"
+          style="background-image:url('https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?q=80&w=1920&auto=format&fit=crop')">
+        </div>
+        <div class="slide"
+          style="background-image:url('https://images.unsplash.com/photo-1619603364904-c0498317e145?q=80&w=1920&auto=format&fit=crop')">
+        </div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <p class="hero-kicker reveal">Autumn / Winter Collection</p>
+        <h1 class="reveal">Timeless style,<br />crafted to last.</h1>
+        <p class="hero-lead reveal">
+          Considered essentials and modern polos, made from natural fabrics and
+          finished by hand. Fewer pieces, worn for years.
+        </p>
+        <div class="hero-btns reveal">
+          <a href="#collections" class="btn btn-primary">Shop the collection</a>
+          <a href="#journal" class="btn btn-ghost">Read the journal</a>
+        </div>
+      </div>
+
+      <button class="slider-arrow prev" id="prevSlide" aria-label="Previous slide">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="slider-arrow next" id="nextSlide" aria-label="Next slide">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <div class="slider-dots" id="dots" role="tablist" aria-label="Slides"></div>
+
+      <a href="#collections" class="scroll-cue" aria-label="Scroll down">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== COLLECTIONS ===== -->
+    <section id="collections" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What we make</p>
+          <h2>Pieces built around you</h2>
+          <p class="section-sub">
+            Three foundations that quietly cover most of your week — designed
+            to mix, layer and last.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <div class="card-media">
+              <img
+                src="https://images.unsplash.com/photo-1625698311031-f0dd15be5144?q=80&w=900&auto=format&fit=crop"
+                alt="Signature polo shirts" loading="lazy" />
+              <span class="card-badge">Signature</span>
+            </div>
+            <div class="card-body">
+              <h3>The Polo</h3>
+              <h6>Our house essential, refined</h6>
+              <p>
+                Breathable piqué cotton with a tailored collar and a fit that
+                works tucked or loose. The one shirt you'll reach for daily.
+              </p>
+              <a class="link-arrow" href="#contact">Explore polos <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img
+                src="https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?q=80&w=900&auto=format&fit=crop"
+                alt="Layered knitwear" loading="lazy" />
+              <span class="card-badge">Knitwear</span>
+            </div>
+            <div class="card-body">
+              <h3>The Layers</h3>
+              <h6>Warmth without the weight</h6>
+              <p>
+                Merino and cotton knits that hold their shape season after
+                season — soft enough to wear alone, sharp enough to layer.
+              </p>
+              <a class="link-arrow" href="#contact">Explore knitwear <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-media">
+              <img
+                src="https://images.unsplash.com/photo-1714317437555-bdaa756ade0b?q=80&w=900&auto=format&fit=crop"
+                alt="Everyday essentials" loading="lazy" />
+              <span class="card-badge">Essentials</span>
+            </div>
+            <div class="card-body">
+              <h3>The Basics</h3>
+              <h6>Everyday, done properly</h6>
+              <p>
+                Tees, chinos and the quiet staples that make a wardrobe work.
+                Honest fabrics, considered cuts, no logos shouting.
+              </p>
+              <a class="link-arrow" href="#contact">Explore basics <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat reveal">
+          <b data-count="18">0</b><span>+</span>
+          <p>Years of craft</p>
+        </div>
+        <div class="stat reveal">
+          <b data-count="240">0</b><span>+</span>
+          <p>Pieces in the archive</p>
+        </div>
+        <div class="stat reveal">
+          <b data-count="52">0</b><span>k</span>
+          <p>Customers dressed</p>
+        </div>
+        <div class="stat reveal">
+          <b data-count="30">0</b><span></span>
+          <p>Countries shipped to</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES / SPLIT ===== -->
+    <section id="services" class="section split-section">
+      <div class="container split">
+        <div class="split-media reveal"
+          style="background-image:url('https://images.unsplash.com/photo-1770910195240-ddec777b77f6?q=80&w=1200&auto=format&fit=crop')">
+        </div>
+        <div class="split-text reveal">
+          <p class="eyebrow">Why POLO360</p>
+          <h2>More than a purchase</h2>
+          <ul class="feature-list">
+            <li>
+              <i class="fa-solid fa-scissors"></i>
+              <div>
+                <h4>Tailoring &amp; alterations</h4>
+                <p>Free in-house adjustments so every piece fits the way it should.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-truck-fast"></i>
+              <div>
+                <h4>Fast, tracked delivery</h4>
+                <p>Complimentary shipping over $120, with easy 30-day returns.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-recycle"></i>
+              <div>
+                <h4>Repair, don't replace</h4>
+                <p>We mend the clothes we make — bring them back and we'll restore them.</p>
+              </div>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-dark">Book a fitting</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta">
+      <div class="cta-inner container reveal">
+        <p class="eyebrow light">Members get early access</p>
+        <h2>Join the POLO360 circle</h2>
+        <p>Be first to see new drops, private sales and restocks before anyone else.</p>
+        <a href="#contact" class="btn btn-primary">Become a member</a>
+      </div>
+    </section>
+
+    <!-- ===== JOURNAL ===== -->
+    <section id="journal" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">From the journal</p>
+          <h2>Stories, style &amp; craft</h2>
+        </div>
+
+        <div class="grid-3 journal-grid">
+          <article class="post reveal">
+            <div class="post-media"
+              style="background-image:url('https://images.unsplash.com/photo-1550995694-3f5f4a7e1bd2?q=80&w=800&auto=format&fit=crop')">
+            </div>
+            <div class="post-body">
+              <span class="post-cat">Style guide</span>
+              <h3>Five ways to wear one polo</h3>
+              <p>From the office to the weekend — how a single piece carries a whole week.</p>
+              <a class="link-arrow" href="#">Read article <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="post reveal">
+            <div class="post-media"
+              style="background-image:url('https://images.unsplash.com/photo-1664293797551-2cf5c308d3c1?q=80&w=800&auto=format&fit=crop')">
+            </div>
+            <div class="post-body">
+              <span class="post-cat">Behind the seams</span>
+              <h3>Where our cotton comes from</h3>
+              <p>A look at the mills and makers behind every POLO360 fabric.</p>
+              <a class="link-arrow" href="#">Read article <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="post reveal">
+            <div class="post-media"
+              style="background-image:url('https://images.unsplash.com/photo-1643015862949-5c8d15a4242e?q=80&w=800&auto=format&fit=crop')">
+            </div>
+            <div class="post-body">
+              <span class="post-cat">Care</span>
+              <h3>Make your clothes last longer</h3>
+              <p>Simple washing and storing habits that keep colour and shape for years.</p>
+              <a class="link-arrow" href="#">Read article <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== CONTACT / FOOTER ===== -->
+  <footer id="contact">
+    <div class="container footer-top">
+      <div class="footer-col footer-brand">
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-mark"><i class="fa-solid fa-shirt"></i></span>
+          <span class="logo-text">POLO<b>360</b></span>
+        </a>
+        <p>Timeless, crafted apparel made from natural fabrics — designed to be worn, mended and kept.</p>
+        <div class="social-links">
+          <a href="#" aria-label="RSS"><i class="fa-solid fa-rss"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p class="footer-note">New arrivals and private offers, straight to your inbox.</p>
+        <form id="newsletter" novalidate>
+          <input type="email" id="nlEmail" placeholder="Your email address" aria-label="Your email" required />
+          <button class="btn btn-primary full" type="submit">Subscribe <span>→</span></button>
+          <p class="form-msg" id="nlMsg" role="status"></p>
+        </form>
+      </div>
+
+      <div class="footer-col">
+        <h3>Get in touch</h3>
+        <form id="contactForm" novalidate>
+          <input type="text" id="cName" placeholder="Your name" aria-label="Your name" required />
+          <input type="email" id="cEmail" placeholder="Your email address" aria-label="Your email" required />
+          <textarea id="cMsg" placeholder="Your message" aria-label="Your message" required></textarea>
+          <button class="btn btn-dark full" type="submit">Send message <span>→</span></button>
+          <p class="form-msg" id="cFormMsg" role="status"></p>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="year"></span> POLO360 — All rights reserved.</p>
+        <p class="footer-links">
+          <a href="#">Privacy</a><a href="#">Terms</a><a href="#">Shipping</a>
+        </p>
+        <p class="credit">Designed &amp; developed by Mətin Fətizadə.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
